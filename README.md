@@ -24,7 +24,7 @@
 
 # Tools Used
 * **Language:** Python
-* **Libraries:** Pandas (Data), SQLAlchemy (Database), Requests (API), Matplotlib (Charts)
+* **Libraries:** Pandas (Data), Numpy, SQLAlchemy (Database), Requests (API), Matplotlib (Charts)
 * **Database:** SQLite
 
 # Author
