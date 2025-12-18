@@ -12,15 +12,16 @@
 - SQL Analysis: Uses SQL queries to analyze trends, such as top vendors with the most vulnerabilities in the last 12 months.
 # 3. Risk Calculation 
 - External Data: Connects to the **NIST NVD API** to get the official severity score (CVSS) for each vulnerability.
-- Custom Scoring: I created a formula to calculate a **Current Risk Score**
+- Custom Scoring: Implemented a Time-Decay Model (Half-Life logic) to calculate a **Current Risk Score**
   (Logic: Newer vulnerabilities get a higher score because they are fresh and likely to be attacked. Older ones get a lower score over time.)
-# 4. Reporting
-  Export: Generates ready-to-use CSV files for further reporting in Excel or BI tools (like Tableau/Power BI).
+# 4. Reporting & Visualization
+- Export: Generates ready-to-use CSV files for further reporting.
+- Visualization: Includes generated charts for Monthly Trends, Vendor Risk Exposure, and Top 10 Critical CVEs.
 
 # Files in this Project
-* 'Cyber_and_IT_risk_analytics_Project.ipynb' : The main Python code.
+* 'Automated CISA KEV Risk Analytics Project' : The main Python code.
 * 'risk.db': The database file storing all vulnerability data.
-* 'exports/': Folder containing the output reports (e.g., Monthly Trends, Top Vendors).
+* 'exports/': Folder containing the output reports (e.g. Monthly Trends, Top Vendors).
 
 # Tools Used
 * **Language:** Python
