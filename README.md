@@ -27,7 +27,7 @@
 * **Libraries:** Pandas (Data), Numpy, SQLAlchemy (Database), Requests (API), Matplotlib (Charts)
 * **Database:** SQLite
 
-# ⚠️ Note on Data: Due to the instability of public NVD API endpoints, the system currently runs in a Hybrid Mode. Real-time CVSS scores are fetched where possible, while missing data is imputed using a conservative simulation model (Normal Distribution centered at High Severity 7.5) to demonstrate the risk scoring logic effectively.
+* ⚠️ Note on Data: Due to the instability of public NVD API endpoints, the system currently runs in a Hybrid Mode. Real-time CVSS scores are fetched where possible, while missing data is imputed using a conservative simulation model (Normal Distribution centered at High Severity 7.5) to demonstrate the risk scoring logic effectively.
 
 # Author
 **NICHARAT THITIPANUCHAIPAT(MEI)**
