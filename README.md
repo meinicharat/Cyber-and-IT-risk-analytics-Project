@@ -18,7 +18,7 @@
 - Visualization: Includes generated charts for Monthly Trends, Vendor Risk Exposure, and Top 10 Critical CVEs.
 
 # Files in this Project
-* 'Automated CISA KEV Risk Analytics Project.ipynb' : The main Python code.
+* 'Automated CISA KEV Risk Analytics Project.ipynb': The main Python code.
 * 'risk.db': The database file storing all vulnerability data.
 * 'exports/': Folder containing the output reports (e.g. Monthly Trends, Top Vendors).
 
